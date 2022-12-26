@@ -47,7 +47,7 @@ for($i = 1; $i <= count($allFiles); $i++)
     $path = __DIR__ . '/php/'.$filename.'.php';
 
     // show name and output
-    echo '<h3 style=""padding:0px; margin:0px;>'.$i.' '.$allFiles[$i].'()</h3>';
+    echo '<h3 style="margin-bottom:4px; margin-top:20px;">'.$i.' '.$allFiles[$i].'()</h3>';
     require($path);
 }
 
