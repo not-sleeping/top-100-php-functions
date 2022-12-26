@@ -3,8 +3,8 @@
 $files = glob( __DIR__ . '/php/*.php');
 
 foreach ($files as $file) {
-    $name = basename($file, ".php");
-    echo $name.'</br>';
+    $name = str_replace('-', ' - ', basename($file, ".php"));
+    echo '<h3 style="margin:0px; padding:0px;">'.$name.'()</h3>';
     require($file);
     echo '</br></br>';
 }
