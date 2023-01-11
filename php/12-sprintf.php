@@ -11,13 +11,13 @@
  */
 
  $text = 'I am %2$f years old and I\'m living in %1$s';
- $age = 22.145;
+ $age = 22;
  $location = 'Rotterdam';
 
  $output = sprintf($text, $location, $age);
 
  var_dump($output);
 
- // returns 'I am 22 years old and I'm living in *Rotterdam'
+ // returns 'I am 22 years old and I'm living in Rotterdam'
 
 ?>
