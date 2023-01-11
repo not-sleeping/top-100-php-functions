@@ -10,7 +10,7 @@
  * There are a lot of values (flags & specifiers) that can be used, for more information look at: https://www.php.net/manual/en/function.sprintf.php
  */
 
- $text = 'I am %2$f years old and I\'m living in %1$s';
+ $text = 'I am %2$d years old and I\'m living in %1$s';
  $age = 22;
  $location = 'Rotterdam';
 
