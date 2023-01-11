@@ -6,7 +6,7 @@
  * ...values: comma seperated values used for formatting
  */
 
- $text = 'I am %2$\'*3.0f years old and I\'m living in %1$\'*10s';
+ $text = 'I am %2$.0f years old and I\'m living in %1$\'*10s';
  $age = 22.145;
  $location = 'Rotterdam';
 
@@ -14,6 +14,6 @@
 
  var_dump($output);
 
- // returns 'I am 22 years old and I'm living in Rotterdam'
+ // returns 'I am 22 years old and I'm living in *Rotterdam'
 
 ?>
