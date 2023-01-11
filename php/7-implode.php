@@ -1,7 +1,7 @@
 <?php
 
 /**
- * implode(array|string, array)
+ * implode(array|string, array): string
  * array|string: an array you want to make a string or a separator
  * array: an array you want to make a string if using a separator
  */

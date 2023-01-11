@@ -1,7 +1,7 @@
 <?php
 
 /**
- * substr(string, integer, integer) 
+ * substr(string, integer, integer): string
  * string: a piece of text
  * integer: offset from right
  * integer: offset from left

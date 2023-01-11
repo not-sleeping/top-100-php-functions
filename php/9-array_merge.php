@@ -1,7 +1,7 @@
 <?php
 
 /**
- * array_merge(array ...arrays)
+ * array_merge(array ...arrays): array
  * array(s): merge one or more arrays together into one array
  */
 

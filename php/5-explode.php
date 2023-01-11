@@ -1,7 +1,7 @@
 <?php
 
 /** 
- * explode(string, string, integer) 
+ * explode(string, string, integer): array
  * string: text we can use as a separator
  * string: text we need to make an array
  * integer: maximum array items

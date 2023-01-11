@@ -1,7 +1,7 @@
 <?php
 
 /**
- * strlen(string)
+ * strlen(string): integer
  * string: text to check how many characters including spaces
  */
 

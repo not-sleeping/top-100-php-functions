@@ -1,7 +1,7 @@
 <?php
 
 /** 
- * str_replace(string|array, string|array, string|array, integer)
+ * str_replace(string|array, string|array, string|array, integer): string
  * string|array: what you are looking for
  * string|array: what you want to replace it with
  * string|array: the text that should contain the words you are looking for

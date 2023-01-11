@@ -1,7 +1,7 @@
 <?php
 
 /**
- * preg_match(string, string, array, flags|int, int)
+ * preg_match(string, string, array, flags|int, int): integer
  * string: a text pattern
  * string: a piece of text you are checking for the pattern
  * array: if you set a variable, it will be filled with an array with all the matches
@@ -14,8 +14,8 @@
 
  $output = preg_match($pattern, $text, $matches, PREG_UNMATCHED_AS_NULL, 0);
 
- var_dump($matches);
+ var_dump($output);
 
- // returns 
+ // returns 1
 
 ?>

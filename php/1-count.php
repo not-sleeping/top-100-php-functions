@@ -1,7 +1,7 @@
 <?php
 
 /**
- * count(array) 
+ * count(array): int
  * returns amount of items in an array
  */
 

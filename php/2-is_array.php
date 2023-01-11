@@ -1,7 +1,7 @@
 <?php
 
 /**
- * is_array(mixed) 
+ * is_array(mixed): boolean
  * returns true or false based on if value is an array
  */
 

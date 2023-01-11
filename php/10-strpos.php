@@ -1,7 +1,7 @@
 <?php
 
 /**
- * strpos(string, string, integer)
+ * strpos(string, string, integer): integer
  * string: a piece of text
  * string: string you are looking for in the text
  * integer: offset in characters from index 0
